@@ -5,7 +5,8 @@
   "main": "app.js",
   "scripts": {
     "test": "export NODE_ENV=test && mocha tests/*.test.js",
-    "start": "node ./bin/www"
+    "start": "node ./bin/www",
+    "test-watch": "nodemon --exec 'npm test'"
   },
   "author": "Romeo Nutifafa Folie",
   "license": "ISC",
@@ -15,5 +16,11 @@
     "express": "^4.16.3",
     "hbs": "^4.0.1",
     "mongoose": "^5.2.9"
+  },
+  "devDependencies": {
+    "expect": "^23.5.0",
+    "mocha": "^5.2.0",
+    "nodemon": "^1.18.3",
+    "supertest": "^3.1.0"
   }
 }
