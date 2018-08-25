@@ -1,0 +1,19 @@
+{
+  "name": "node-starter-template",
+  "version": "1.0.0",
+  "description": "Personal starter template for all my node projects",
+  "main": "app.js",
+  "scripts": {
+    "test": "export NODE_ENV=test && mocha tests/*.test.js",
+    "start": "node ./bin/www"
+  },
+  "author": "Romeo Nutifafa Folie",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "hbs": "^4.0.1",
+    "mongoose": "^5.2.9"
+  }
+}
